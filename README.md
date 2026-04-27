@@ -106,9 +106,19 @@ npm run build
 
 ## 면책 조항
 
-LinearKR is not affiliated with, endorsed by, or sponsored by Linear.  
-Linear is a trademark of its respective owner.  
+LinearKR is not affiliated with, endorsed by, or sponsored by Linear.
+
+Linear is a trademark of its respective owner.
+
 This extension only modifies UI label display in the user’s browser and does not interact with Linear’s servers or APIs.
+
+---
+
+LinearKR은 Linear와 제휴, 후원, 보증 관계가 없는 비공식 프로젝트입니다.
+
+Linear는 해당 소유자의 상표입니다.
+
+이 확장 프로그램은 사용자의 브라우저 안에서 UI 라벨 표시만 보조적으로 변경하며, Linear 서버 또는 API와 직접 상호작용하지 않습니다.
 
 ---
 
@@ -119,3 +129,11 @@ This project is licensed under the MIT License.
 The LinearKR name, logo, icons, and store assets are not licensed for reuse unless explicitly stated.
 
 LinearKR is an unofficial Korean UI helper for Linear and is not affiliated with, endorsed by, or sponsored by Linear.
+
+---
+
+이 프로젝트의 소스 코드는 MIT License에 따라 배포됩니다.
+
+단, LinearKR 이름, 로고, 아이콘, 스토어 이미지 및 기타 브랜드 자산은 별도로 명시하지 않는 한 재사용을 허용하지 않습니다.
+
+LinearKR은 Linear를 위한 비공식 한국어 UI 보조 도구이며, Linear와 제휴, 후원, 보증 관계가 없습니다.

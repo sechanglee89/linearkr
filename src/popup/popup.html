@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinearKR - Korean UI Helper</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title">LinearKR</h1>
+        <p class="subtitle">Korean UI Helper</p>
+      </header>
+
+      <main class="main">
+        <div class="toggle-row">
+          <label class="toggle-label" for="toggle-enabled">
+            <span class="toggle-text">한국어 보조 표시</span>
+            <span class="toggle-state" id="toggle-state-text">켜짐</span>
+          </label>
+          <button
+            class="toggle-btn"
+            id="toggle-enabled"
+            role="switch"
+            aria-checked="true"
+            aria-label="한국어 보조 표시 켜기/끄기"
+          >
+            <span class="toggle-thumb"></span>
+          </button>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="debug-row" id="debug-row">
+          <label class="debug-label" for="toggle-debug">
+            <span class="debug-text">디버그 모드</span>
+          </label>
+          <input
+            type="checkbox"
+            id="toggle-debug"
+            class="debug-checkbox"
+            aria-label="디버그 모드 켜기/끄기"
+          />
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p class="disclaimer">
+          LinearKR is not affiliated with, endorsed by,<br />
+          or sponsored by Linear.<br />
+          Linear is a trademark of its respective owner.
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
